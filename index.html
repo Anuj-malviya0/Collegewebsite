@@ -14,7 +14,9 @@
         <nav>
          <a href="index.html"> <img src="images/logo.png" > </a>
          <div class="nav-links" id="navlinks">
+
             <i class="fa fa-times" onclick="hideMenu()"></i>
+
              <ul>
                  <li> <a href="">HOME</a></li>
                  <li> <a href="">ABOUT</a></li>    
@@ -24,9 +26,20 @@
              </ul>
 
          </div>
+
+         <i class="fa fa-bars" onclick="showMenu"></i>
+        </nav>
+    <div class="text-box">
+        <h1>World's Biggest University</h1>
+        <p>Making website is one of easiest thing in the world. You
+        just need to learn HTML, CSS, JAVASCRIPT and you are good to go.   
+        </p>
+        <a href="">Vist Us To know More</a>
+
          <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
     <div class="text-box">
+
 
     </div>    
 
@@ -80,9 +93,73 @@
         <div class="row">
             <div class="campus-col">
                 <img src="images/london.png">
+
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                
+                </div>
+
+
             </div>
 
         </div>
+
+
+ </section> 
+
+<!-------Facilites----->
+<section class="Facilites">
+    <h1>Our Facilities</h1>
+    <p>This is my space written later</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p>this is also my space witten later</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>this is also my space witten later</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Testy And Healthy Food</h3>
+            <p>this is also my space witten later</p>
+        </div>
+    </div>
+</section>
+
+
+<!-----------JavaScript for Toggle Menu------------>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+
+    </script>
+    
+
+</body>
+</html>
 
 
 
@@ -118,3 +195,4 @@
 
 </body>
 </html>
+
