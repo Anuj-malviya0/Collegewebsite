@@ -14,7 +14,9 @@
         <nav>
          <a href="index.html"> <img src="images/logo.png" > </a>
          <div class="nav-links" id="navlinks">
-            <i class="fa fa-times" onclick="hideMenu"></i>
+
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
              <ul>
                  <li> <a href="">HOME</a></li>
                  <li> <a href="">ABOUT</a></li>    
@@ -24,6 +26,7 @@
              </ul>
 
          </div>
+
          <i class="fa fa-bars" onclick="showMenu"></i>
         </nav>
     <div class="text-box">
@@ -32,6 +35,11 @@
         just need to learn HTML, CSS, JAVASCRIPT and you are good to go.   
         </p>
         <a href="">Vist Us To know More</a>
+
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+
 
     </div>    
 
@@ -85,6 +93,7 @@
         <div class="row">
             <div class="campus-col">
                 <img src="images/london.png">
+
                 <div class="layer">
                     <h3>LONDON</h3>
                 </div>
@@ -101,9 +110,12 @@
                     <h3>WASHINGTON</h3>
                 
                 </div>
+
+
             </div>
 
         </div>
+
 
  </section> 
 
@@ -148,3 +160,39 @@
 
 </body>
 </html>
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-----------JavaScript for Toggle Menu------------>
+
+    <script>
+
+        
+        function showMenu(){
+            document.getElementById("navlinks").style.right ="0";
+        }
+        function hideMenu(){
+            document.getElementById("navlinks").style.right ="-200px";
+        }
+
+    </script>
+
+</body>
+</html>
+
