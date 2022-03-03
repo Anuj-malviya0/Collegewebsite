@@ -93,7 +93,8 @@ nav .fa{
 		display: block;
 	}
 	.nav-links{
-		position: absolute;
+		position:fixed
+		;
 	    background: #f44336;
 	    height: 100vh;
 	    width: 200px;
@@ -142,7 +143,7 @@ p{
 	justify-content: space-between;
 }
 .course-col{
-	flex-basis: 31%;
+	flex-basis: 24%;
 	background: #fff3f3;
 	border-radius: 10px;
 	margin-bottom: 5%;
