@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPC Itarsi Course</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/e438667bba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+         <a href="index.html"> <img src="images/logo.png" > </a>
+         <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                 <li> <a href="">HOME</a></li>
+                 <li> <a href="">ABOUT</a></li>    
+                 <li> <a href="">COURSE</a></li> 
+                 <li> <a href="">BLOG</a></li>
+                 <li> <a href="">CONTACT</a></li>  
+             </ul>
+
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our courses</h1>
+    
+</section>
+
+<!-----------Course------------>
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>The courses we offer are </p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Computer <br>Science</h3>
+            <p>Diploma in Computer Science and Engineering is a three-year diploma course.
+            The course deals with the study of principles and concepts of Computer Science and Engineering.
+           
+            </p>
+
+        </div>
+
+        <div class="course-col">
+            <h3>Electronic Telecommunication</h3>
+            <p>The focus of the course is on understanding electronics networks 
+            and devices,electric magnetic fields, computer fundamental, communications and control systems.
+            </p>
+            
+        </div>
+
+        <div class="course-col">
+            <h3>Electrical </h3>                                                                                                                                                                                                                                                                                                             </h3>
+            <p><br> in Electrical Engineering is a 3 year skill-enabling engineering programme.
+            The course deals with installation, maintenance, troubleshooting, 
+            magnetism, control systems, signal processing and telecommunications.<br>
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Mechanical</h3>                                                                                                                                                                                                                                                                                                             </h3>
+            <p><br>Mechanical engineering is a discipline of engineering that applies 
+            the principles of physicsand materials science for analysis, 
+            design, manufacturing, and maintenance of mechanical systems.
+                
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<!-------------facilities--------->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>Library</h3>
+            <p>Libraray for Student</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>largest play ground for outdoor games</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Workshop</h3>
+            <p>We have effective mechnical workshop to gain our practical knowledge</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/computer lab.jpg">
+            <h3>Computer lab</h3>
+            <p>We have two comuter lab with 48pc capacity</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-------------footer--------->
+
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Government Polytechnic College Itarsi (GPCI) located at Itarsi, 
+        Near sankheda naka itarsi Hoshangabad Madhya Pradesh is one of the popular colleges in India. 
+        The College has been rated by 42 people on iCBSE.  
+        This College is counted among the top-rated Colleges in Madhya Pradesh with an excellent academic track record. 
+    </p>
+    <div class="icons">
+    	 <i class="fa fa-facebook"></i>
+    	 <i class="fa fa-twitter"></i>
+    	 <i class="fa fa-instagram"></i>
+    	 <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+
+</section>
+
+<!-----------JavaScript for Toggle Menu------------>
+
+    <script>
+
+        var navLinks = document.getElementById("navlinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+
+    </script>
+    
+
+</body>
+</html>
