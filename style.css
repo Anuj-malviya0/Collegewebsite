@@ -223,7 +223,7 @@ h3{
 	padding-top: 100px;
 }
 .facilities-col{
-	flex-basis: 31%;
+	flex-basis: 21%;
 	border-radius: 10px;
 	margin-bottom: 5%;
 	text-align: left;
@@ -333,7 +333,7 @@ h3{
 
 /*---------- about us page ----------*/
 
-.sub-header{
+.sub-header1{
 	height: 50vh;
 	width: 100%;
 	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
