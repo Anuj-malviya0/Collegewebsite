@@ -2,9 +2,38 @@
 
 <html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/e438667bba.js" crossorigin="anonymous"></script>
 </head>
 <body>
+	<section class="sub-header1">
+        <nav>
+         <a href="index.html"> <img src="logo.png" > </a>
+         <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                 <li> <a href="index.html">HOME</a></li>
+
+                 <li> <a href="about us.html">ABOUT</a></li>    
+                 <li> <a href="course.html">COURSE</a></li> 
+                 <li> <a href="lecturer.html">STAFF</a></li>
+                 <li> <a href="contact.html">CONTACT</a></li>  
+                 <li> <a href="image_g\gallery.html">IMAGE GALLERY</a></li>
+             </ul>
+
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Image Gallery</h1>
+    
+</section>
+
+
   <div class="image-grid">
 		<img src="image24.jpg">
 		<img src="image26.jpg">
@@ -24,5 +53,21 @@
 		<img src="image45.jpg">
 
    </div>
+
+
+
+<!-----------JavaScript for Toggle Menu------------>
+
+    <script>
+
+        var navLinks = document.getElementById("navlinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+
+    </script>
 </body>
 </html>

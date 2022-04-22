@@ -149,6 +149,10 @@ p{
 	padding: 20px 12px;
 	box-sizing: border-box;
 }
+.course-col a {
+text-decoration: none;
+color: #5e4fff;
+}
 h3{
 	text-align: center;
 	font-weight: 600;
